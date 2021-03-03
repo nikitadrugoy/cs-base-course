@@ -21,6 +21,7 @@ namespace Utils
         {
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
+            Environment.Exit(0);
         }
         
         public static void HideCursor()
@@ -31,6 +32,35 @@ namespace Utils
         public static void ShowCursor()
         {
             Console.CursorVisible = true;
+        }
+
+        public static string PromptPassword(string message)
+        {
+            var password = string.Empty;
+            ConsoleKey key;
+         
+            Console.Write($"{message}: ");
+            
+            do
+            {
+                var keyInfo = Console.ReadKey(true);
+                key = keyInfo.Key;
+
+                if (key == ConsoleKey.Backspace && password.Length > 0)
+                {
+                    password = password.Remove(password.Length - 1);
+                    Console.Write("\b \b");
+                }
+                else if (!char.IsControl(keyInfo.KeyChar))
+                {
+                    password += keyInfo.KeyChar;
+                    Console.Write("*");
+                }
+            } while (key != ConsoleKey.Enter);
+
+            Console.WriteLine();
+            
+            return password;
         }
     }
 }
