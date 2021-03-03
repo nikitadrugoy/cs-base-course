@@ -10,7 +10,20 @@ namespace Utils
             
             return Console.ReadLine();
         }
-        
+
+        public static int PromptInt(string message)
+        {
+            while (true)
+            {
+                if (int.TryParse(Prompt(message), out var result))
+                {
+                    return result;
+                }
+
+                Console.WriteLine("Value is not a number.");
+            }
+        }
+
         public static void PrintInPosition(string message, int left, int top)
         {
             Console.SetCursorPosition(left, top);
