@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{B0D7E908-C824-425B-B88B-9EC3707B52B4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 2", "Lesson 2", "{DF9CC1D1-33F9-4FF9-BEE0-CB7376EAB412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1MinNumber", "Task1MinNumber\Task1MinNumber.csproj", "{2A9B7DC9-8EFF-4722-BC4F-4CD8B92EBC55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{B0D7E908-C824-425B-B88B-9EC3707B52B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0D7E908-C824-425B-B88B-9EC3707B52B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0D7E908-C824-425B-B88B-9EC3707B52B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9B7DC9-8EFF-4722-BC4F-4CD8B92EBC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9B7DC9-8EFF-4722-BC4F-4CD8B92EBC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9B7DC9-8EFF-4722-BC4F-4CD8B92EBC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9B7DC9-8EFF-4722-BC4F-4CD8B92EBC55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A9B7DC9-8EFF-4722-BC4F-4CD8B92EBC55} = {DF9CC1D1-33F9-4FF9-BEE0-CB7376EAB412}
 	EndGlobalSection
 EndGlobal
