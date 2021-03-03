@@ -3,6 +3,13 @@ using Utils;
 
 namespace Task1MinNumber
 {
+    /// <summary>
+    /// Автор: Сидорин Никита
+    /// Курс: Основы языка C#
+    /// Урок: 2
+    /// Задача: 1
+    /// Условие: Написать метод, возвращающий минимальное из трех чисел.
+    /// </summary>
     internal class Program
     {
         public static void Main(string[] args)
