@@ -14,9 +14,10 @@ namespace Task2NumberLength
     {
         public static void Main(string[] args)
         {
-            var number = ConsoleHelper.Prompt("Enter number");
+            var number = ConsoleHelper.PromptInt("Enter number");
+            var numberLength = Math.Abs(number).ToString().Length;
             
-            Console.WriteLine($"Number length is {number.Length}.");
+            Console.WriteLine($"Number length is {numberLength}.");
             
             ConsoleHelper.ExitByAnyKey();
         }

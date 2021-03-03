@@ -16,8 +16,8 @@ namespace Task5BodyMassIndex
     {
         public static void Main(string[] args)
         {
-            var weight = int.Parse(ConsoleHelper.Prompt("Enter your weight (kg)"));
-            var height = int.Parse(ConsoleHelper.Prompt("Enter your height (sm)"));
+            var weight = ConsoleHelper.PromptInt("Enter your weight (kg)");
+            var height = ConsoleHelper.PromptInt("Enter your height (sm)");
 
             var bodyMassIndex = MassIndex(weight, height);
             var massExceeding = MassExceeding(weight, height);

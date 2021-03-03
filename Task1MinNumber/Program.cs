@@ -14,9 +14,9 @@ namespace Task1MinNumber
     {
         public static void Main(string[] args)
         {
-            var first = int.Parse(ConsoleHelper.Prompt("Enter first number"));
-            var second = int.Parse(ConsoleHelper.Prompt("Enter second number"));
-            var third = int.Parse(ConsoleHelper.Prompt("Enter third number"));
+            var first = ConsoleHelper.PromptInt("Enter first number");
+            var second = ConsoleHelper.PromptInt("Enter second number");
+            var third = ConsoleHelper.PromptInt("Enter third number");
             
             var min = Min(first, second, third);
             

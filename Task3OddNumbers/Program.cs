@@ -20,7 +20,7 @@ namespace Task3OddNumbers
 
             do
             {
-                currentNumber = int.Parse(ConsoleHelper.Prompt("Enter number (0 to exit)"));
+                currentNumber = ConsoleHelper.PromptInt("Enter number (0 to exit)");
 
                 if (IsOdd(currentNumber))
                 {
