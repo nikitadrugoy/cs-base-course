@@ -15,12 +15,22 @@ namespace Task7Recursion
     {
         public static void Main(string[] args)
         {
-            var a = ConsoleHelper.PromptInt("Enter first number");
-            var b = ConsoleHelper.PromptInt("Enter second number");
+            int a, b;
+            
+            do
+            {
+                a = ConsoleHelper.PromptInt("Enter first number a");
+                b = ConsoleHelper.PromptInt("Enter second number b");
+
+                if (a >= b)
+                {
+                    Console.WriteLine("a must be less than b.");
+                }
+            } while (a >= b);
+            
             var sum = SumRecursive(a, b);
             
             Console.WriteLine($"Sum: {sum}");
-            
             ConsoleHelper.ExitByAnyKey();
         }
 
