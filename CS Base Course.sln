@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1MinNumber", "Task1MinN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2NumberLength", "Task2NumberLength\Task2NumberLength.csproj", "{1E6F69C6-5092-4D85-8E1F-612C20712550}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3OddNumbers", "Task3OddNumbers\Task3OddNumbers.csproj", "{2D002DEB-B9F6-490F-B935-39325F9D51E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{1E6F69C6-5092-4D85-8E1F-612C20712550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E6F69C6-5092-4D85-8E1F-612C20712550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E6F69C6-5092-4D85-8E1F-612C20712550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D002DEB-B9F6-490F-B935-39325F9D51E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D002DEB-B9F6-490F-B935-39325F9D51E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D002DEB-B9F6-490F-B935-39325F9D51E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D002DEB-B9F6-490F-B935-39325F9D51E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2A9B7DC9-8EFF-4722-BC4F-4CD8B92EBC55} = {DF9CC1D1-33F9-4FF9-BEE0-CB7376EAB412}
 		{1E6F69C6-5092-4D85-8E1F-612C20712550} = {DF9CC1D1-33F9-4FF9-BEE0-CB7376EAB412}
+		{2D002DEB-B9F6-490F-B935-39325F9D51E2} = {DF9CC1D1-33F9-4FF9-BEE0-CB7376EAB412}
 	EndGlobalSection
 EndGlobal
