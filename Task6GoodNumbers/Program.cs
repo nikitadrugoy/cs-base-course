@@ -20,6 +20,8 @@ namespace Task6GoodNumbers
             var maxValue = 1000000000;
             var goodNumberCount = 0;
 
+            Console.WriteLine($"Counting good numbers of {maxValue}...");
+            
             var dateTimeStart = DateTime.Now;
             
             for (var i = 1; i <= maxValue; i++)
@@ -34,7 +36,7 @@ namespace Task6GoodNumbers
             var timeSpent = dateTimeFinish.Subtract(dateTimeStart).TotalMilliseconds / 1000;
             
             Console.WriteLine($"Good numbers count: {goodNumberCount}."); // 61574510
-            Console.WriteLine($"Time spent: {timeSpent:F3} seconds.");    // 183,852 seconds
+            Console.WriteLine($"Time spent: {timeSpent:F3} seconds.");    // 93,415 seconds (old: 183,852)
             ConsoleHelper.ExitByAnyKey();
         }
 
@@ -43,15 +45,15 @@ namespace Task6GoodNumbers
             // Красиво, но очень медленно.
             // var digitSum = value.ToString().Sum(char.GetNumericValue);
             
-            double digitSum = 0;
-            
-            // TODO ToString() - узкое место по нагрузке, пока не нашел способ, как улучшить.
-            foreach (var digitChar in value.ToString())
-            {
-                digitSum += char.GetNumericValue(digitChar);
+            var digitSum = 0;
+            var currentValue = value;
+
+            while (currentValue != 0) {
+                digitSum += currentValue % 10;
+                currentValue /= 10;
             }
 
-            return value % digitSum == 0;
+            return digitSum == 0 || value % digitSum == 0;
         }
     }
 }
