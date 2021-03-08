@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{B0D7E908-C824-425B-B88B-9EC3707B52B4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 3", "Lesson 3", "{F271AD02-D017-48DD-B844-9709A189CF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1Complex", "Task1Complex\Task1Complex.csproj", "{18A67A37-3D33-4C33-A53A-A8684059E983}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{B0D7E908-C824-425B-B88B-9EC3707B52B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0D7E908-C824-425B-B88B-9EC3707B52B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0D7E908-C824-425B-B88B-9EC3707B52B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A67A37-3D33-4C33-A53A-A8684059E983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A67A37-3D33-4C33-A53A-A8684059E983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A67A37-3D33-4C33-A53A-A8684059E983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A67A37-3D33-4C33-A53A-A8684059E983}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18A67A37-3D33-4C33-A53A-A8684059E983} = {F271AD02-D017-48DD-B844-9709A189CF4B}
 	EndGlobalSection
 EndGlobal
