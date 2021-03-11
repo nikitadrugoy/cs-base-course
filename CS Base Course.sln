@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{B0D7E908-C824-425B-B88B-9EC3707B52B4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 4", "Lesson 4", "{A30634E3-97DB-44E8-B8AB-77D58C3F274F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5TwoDimensionalArray", "Task5TwoDimensionalArray\Task5TwoDimensionalArray.csproj", "{4A3304DE-10ED-4644-813E-7334C0AACFD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysLib", "ArraysLib\ArraysLib.csproj", "{03EB9466-8C0A-4155-A0E7-5BBCFDF0B1A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{B0D7E908-C824-425B-B88B-9EC3707B52B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0D7E908-C824-425B-B88B-9EC3707B52B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0D7E908-C824-425B-B88B-9EC3707B52B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3304DE-10ED-4644-813E-7334C0AACFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3304DE-10ED-4644-813E-7334C0AACFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3304DE-10ED-4644-813E-7334C0AACFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3304DE-10ED-4644-813E-7334C0AACFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EB9466-8C0A-4155-A0E7-5BBCFDF0B1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EB9466-8C0A-4155-A0E7-5BBCFDF0B1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EB9466-8C0A-4155-A0E7-5BBCFDF0B1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EB9466-8C0A-4155-A0E7-5BBCFDF0B1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A3304DE-10ED-4644-813E-7334C0AACFD3} = {A30634E3-97DB-44E8-B8AB-77D58C3F274F}
+		{03EB9466-8C0A-4155-A0E7-5BBCFDF0B1A4} = {A30634E3-97DB-44E8-B8AB-77D58C3F274F}
 	EndGlobalSection
 EndGlobal
