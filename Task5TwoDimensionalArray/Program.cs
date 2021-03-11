@@ -39,12 +39,14 @@ namespace Task5TwoDimensionalArray
             var lengthY = ConsoleHelper.PromptInt("Enter Y length");
             var array = new D2Array(lengthX, lengthY);
             var maxValue = array.MaxValue(out var maxValueIndex);
+            var sumMinValue = 500;
 
             Console.WriteLine(array.ToString());
             Console.WriteLine();
             Console.WriteLine($"Min: {array.Min}");
             Console.WriteLine($"Max: {maxValue} (index is [{maxValueIndex.Item1}, {maxValueIndex.Item2}])");
             Console.WriteLine($"Sum: {array.Sum()}");
+            Console.WriteLine($"Sum from {sumMinValue}: {array.Sum(sumMinValue)}");
 
             try
             {

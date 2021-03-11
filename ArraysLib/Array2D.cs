@@ -48,13 +48,16 @@ namespace ArraysLib
             }
         }
 
-        public long Sum()
+        public long Sum(int minValue = 0)
         {
             long sum = 0;
 
             foreach (var value in _array)
             {
-                sum += value;
+                if (value > minValue)
+                {
+                    sum += value;
+                }
             }
 
             return sum;
